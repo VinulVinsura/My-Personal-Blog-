@@ -1,0 +1,86 @@
+.header{
+    position: fixed !important;
+    top:0;
+    left: 0;
+    height: 15% !important;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.81) !important;
+    
+ }
+ 
+ .userName{
+    position: relative;
+     font-size: 40px;
+     color: white;
+     transition: 0.3s ease;
+    
+ }
+
+ .card{
+    transition: 0.3s ease;
+ }
+
+ .card:hover{
+    transform:scale(1.1)
+   
+ }
+
+.banner-row{
+    position:  relative;;
+}
+ .userName:hover{
+     color: orangered;
+     text-shadow: 0 0 25px white;
+     transform: scale(1.1);
+ }
+
+
+
+ 
+ .nav-link{
+     font-size: 20px;
+     color:white;
+     margin: 6px;
+     transition: 0.3s ease;
+ 
+ 
+ }
+ .nav-link:hover{
+     color: orangered;
+     text-shadow: 10px;
+     transform: scale3d(1.1);
+ }
+ 
+ .btn{
+     padding: 8px 25px;
+     background-color: black;
+     color: white;
+     border-radius: 6px;
+     font-size: 15px;
+     letter-spacing: 1px;
+     transition: 0.3s ease;
+ }
+ .btn:hover{
+     background-color: rgb(27, 134, 36);
+     box-shadow: 0 0 25px rgb(27, 134, 36);
+     text-shadow: 10px;
+     color: white;
+     transform: scale3d(1.1);
+ 
+ }
+ 
+ .img-box img{
+     border-radius:50% ;
+     width: 450px;
+ 
+ }
+ 
+img{
+    height: 200px;
+    max-width: 1000px;
+ }
+
+ span{
+    color: orangered;
+ }
+
